@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Training artifacts
+logs/
+slurm_logs/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Generated or local data
+data/
+generated_data/
+testing/
+train_testing/
+*.wav
+*.npz
+
+# Local machine/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# HPC logs
+*.out
+*.err
