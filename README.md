@@ -1,6 +1,6 @@
-# Domain-Robust Sound Source Tracking
+# Nuisance-Disentangled-SST
 
-This repository contains the code for the paper **"Domain-Robust Sound Source Tracking using Nuisance Disentanglement"**.
+Source code for the EUSIPCO 2026 paper **"Domain-Robust Sound Source Tracking Using Nuisance Disentanglement"**.
 
 The project provides a compact CRNN-based pipeline for sound source localization and tracking with simulated microphone-array recordings. It includes utilities for generating synthetic trajectories, training a baseline model, training the proposed nuisance-disentangled variant, and evaluating on synthetic and RealMAN-style data.
 
